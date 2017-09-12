@@ -2,15 +2,15 @@
 
 // =========== ALL REQUIRE FILE INCLUDED ================ //
 
-require 'db/config.php';
+require '../db/config.php';
 
 // =========== CORE CALCULATIONS ================ //
 
-require 'fn/core.php';
+require '../db/core.php';
 
 // =========== FATCH LOCAL SERVER DATA ================ //
 
-require 'fn/core_two.php';
+require '../db/core_two.php';
 
 // ========= CHANGE THIS TO SEE ANOTHOR MONTH REPORT ======= //
 
@@ -39,9 +39,9 @@ endif;
     <title><?php echo $fullForm; ?> Attendance Report</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="src/materialize.min.css">
-    <link href="src/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="../src/materialize.min.css">
+    <link href="../src/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles.css">
       
     </head>
 
@@ -83,7 +83,7 @@ endif;
 <?php if(!empty($_POST)): ?>
 
       <div class="col s4 right">
-      <a href="index.php" class="btn waves-effect waves-light" title="Daily Attendance Report">Daily Attendance</a>
+      <a href="../index.php" class="btn waves-effect waves-light" title="Daily Attendance Report">Daily Attendance</a>
         <button class="btn waves-effect waves-light" onclick="javascript:printDiv('printablediv')">Print
             <i class="fa fa-print" aria-hidden="true"></i>
           </button>
@@ -167,9 +167,9 @@ endif;
 
 
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="src/jquery-2.1.1.min.js"></script>
-      <script src="src/materialize.min.js"></script>
-      <script src="src/custom.js"></script>
+      <script type="text/javascript" src="../src/jquery-2.1.1.min.js"></script>
+      <script src="../src/materialize.min.js"></script>
+      <script src="../src/custom.js"></script>
       
     </body>
 </html>

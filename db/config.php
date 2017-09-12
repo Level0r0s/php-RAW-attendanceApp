@@ -43,4 +43,4 @@ if(isset($_SESSION['initialize'])) {
 
 // ===== CUSTOM FUNCTIONS ===== //
 
-include 'fn/functions.php';
+include 'functions.php';
