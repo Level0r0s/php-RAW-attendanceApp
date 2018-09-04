@@ -5,7 +5,6 @@
 
 ##Requirements
 * Any flavour of PHP 5.4+
-* PHPUnit to execute the test suite (optional).
 
 ## Supported devices
 
